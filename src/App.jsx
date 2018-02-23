@@ -93,7 +93,7 @@ class App extends Component {
                 : <div></div>
               }
             </Col>
-            <Col xs={6} md={9}>
+            <Col xs={12} md={9}>
               {
                 this.state.artist !== null
                 ? <div>
