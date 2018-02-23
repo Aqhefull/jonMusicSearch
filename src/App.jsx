@@ -24,7 +24,7 @@ class App extends Component {
 
   search() {
     const API_KEY = '28d609ee44d8660a8c50b91393633944';
-    const BASE_URL = 'http://ws.audioscrobbler.com/2.0/?method=';
+    const BASE_URL = 'https://ws.audioscrobbler.com/2.0/?method=';
     const BASE_SEACRH = 'artist.search';
     const BASE_ALBUMS = 'artist.gettopalbums';
     let FETCH_URL = `${BASE_URL}${BASE_SEACRH}&artist=${this.state.query}&api_key=${API_KEY}&format=json`;
