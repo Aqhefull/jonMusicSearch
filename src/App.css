@@ -1,0 +1,76 @@
+body {
+  background: black;
+  color: #fff;
+}
+
+.App {
+  text-align: center;
+  padding: 5%;
+}
+
+.App-title {
+  font-size: 26px;
+  margin: 40px 0;
+}
+.App-main-search-input {
+  width: 60%;
+  margin: 0 auto;
+}
+/*Profile*/
+
+.profile {
+  display: flex;
+  justify-content: center;
+}
+.profile-info {
+  margin-left: 10px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.profile-img{
+  width: 150;
+  height: 150px;
+  border: 3px solid #fff;
+  border-radius: 75px;
+  object-fit: cover;
+}
+.profile-name {
+  font-size: 26px;
+}
+.profile-listeners{
+  font-size: 18px;
+}
+
+/*Gallery*/
+.gallery-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.gallery-wrapper .album {
+  margin: 10px;
+  max-width: 174px;
+  position: relative;
+  border: 5px solid #3b3b3b;
+}
+.gallery-wrapper .album img{
+  display: block;
+  width: 100%;
+}
+.gallery-wrapper .album a {
+  background-color: rgba(0,0,0,0.5);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding: 10px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: block;
+  color: #fff;
+  font-weight: bold;
+}
